@@ -137,8 +137,9 @@ class mainviewmodel():ViewModel() {
             }
 
     }
-
-
+    fun reshot(){
+        uiState=mainuistate.starting
+    }
 
 
 }

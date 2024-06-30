@@ -69,8 +69,8 @@ fun bottombar(
             verticalAlignment = Alignment.CenterVertically,
             horizontalArrangement = Arrangement.SpaceEvenly
         ){
-            Button(onClick = { /*TODO*/ }) {
-                Text(text = "打开相册")
+            IconButton(onClick = { viewmodel.reshot() }) {
+                Text(text = "重新拍照")
             }
             IconButton(onClick = { viewmodel.takephoto(context = context) }) {
                 Icon(
